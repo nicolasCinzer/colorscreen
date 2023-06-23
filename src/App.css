@@ -1,0 +1,57 @@
+.backgroundColor {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 10% 80% 10%;
+
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 12px;
+}
+
+header > button {
+  height: 35%;
+  background-color: transparent;
+  border: 0;
+  font-size: 20px;
+  transition: all 300ms;
+}
+
+header > button:hover {
+  color: rgb(214, 214, 20);
+}
+
+.textColor {
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.inputColor {
+  border: 0;
+  border-bottom: 1px solid #0000009a;
+  background: transparent;
+  font-size: 24px;
+  padding: 12px;
+  height: 35%;
+  color: #0000009a;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: all 300ms;
+}
+
+.inputColor:focus {
+  outline: none;
+}
